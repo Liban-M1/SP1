@@ -4,9 +4,10 @@
     margin: 0;
     box-sizing: border-box;
     list-style: none;
-    font-family: italic;
+    font-family: san;
 }
 
+/* -----Nav-Bar */ 
 body {
     background: lightblue;
 }
@@ -125,4 +126,66 @@ nav ul li a.active {
     .hamburger {
         display: block;
     }
+}
+/* Nav-Bar----- */
+
+/* -----Home-Page */
+
+.fr_img {
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+.top_center {
+    position: absolute;
+    bottom: 90%;
+}
+
+.bottom_center {
+    position: absolute;
+    bottom: ;
+    left: ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----Footer----- */
+
+Footer {
+    background-color: #374957;
+    color: white;
+    padding: 25px;
+}
+
+footer p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.foot_h {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.h6 {
+    font-size: 1em;
+    text-align: center;
 }
