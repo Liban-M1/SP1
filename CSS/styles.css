@@ -4,14 +4,14 @@
     margin: 0;
     box-sizing: border-box;
     list-style: none;
-    font-family: san;
+    font-family: italic 
 }
 
-/* -----Nav-Bar */ 
 body {
     background: lightblue;
 }
 
+/* -----Nav-Bar */ 
 img {
     width: 100%;
 }
@@ -31,6 +31,12 @@ header {
 .logo {
     width: 75px;
     margin-top: 0px;
+}
+
+.nav_header h1 {
+    text-transform: uppercase;
+    font-size: 1em;
+    
 }
 
 nav .logo {
@@ -133,13 +139,11 @@ nav ul li a.active {
         font-size: larger;
     }
 }
-
 /* Nav-Bar----- */
 
 
 
 /* -----Home-Page */
-
 .fp_img {
     width: 340px;
     height: auto;
@@ -172,15 +176,57 @@ nav ul li a.active {
     color: white;
     font-size: 20px;
 }
+/* Home-Page----- */
+
+
+
+/* -----Explore */
+.h_x {
+    background: #374957;
+    display: inline-block;
+    text-align: justify;
+    border-radius: 0px 20px 20px 0px;
+    margin: 10px;
+    margin-left: 0;
+    padding: 8px 20px;
+    border: 2px solid black;
+    border-left: 0px solid black; 
+} 
+
+.h_x p {
+    color: white;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: 550;
+    font-style: bold italic;
+    letter-spacing: 1px;
+}
+
+.art_txt p {
+    margin: 10px;
+}
+
+.art_bk {
+    padding: 15px;
+    background-color: #374957;
+    margin-bottom: 20px;
+}
+
+.art_img {
+    width: 100%;
+    height: 215px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
 
 
 
 
+/* Explore----- */
 
 
 
 
-/* Home-Pgae----- */
 
 
 
@@ -195,6 +241,23 @@ nav ul li a.active {
 
 
 /* -----Footer----- */
+.showcase {
+    padding: 5px;
+    background-color: #374957
+}
+
+.showcase_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 20px;
+}
+
+.showcase_ithem img {
+    border-radius: 8px;
+    width: 175px;
+    height: 103px;
+}
 
 Footer {
     background-color: #374957;
@@ -205,6 +268,10 @@ Footer {
 footer p {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.foot_h {
+    text-transform: capitalize;
 }
 
 .foot_h, .h6 {
