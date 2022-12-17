@@ -241,11 +241,42 @@ nav ul li a.active {
         padding: 30px;
     }
 } 
-
-
-
-
 /* Explore----- */
+
+/* -----Visit */
+
+.visit_h {
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.art_txt_v p {
+    margin: 10px;
+}
+
+.art_txt_v {
+    padding: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+    .art_img {
+        width: 545px;
+        height: 210px; 
+        margin: auto; 
+        
+    }
+
+    .art_txt_v p {
+        font-size: 20px;
+    }
+
+    .art_bk {
+        
+        padding: 30px;
+    }
+} 
+/* Visit----- */
 
 
 
@@ -331,11 +362,3 @@ footer p {
 }
 
 
-.visit_h {;
-    font-size: 1.5rem;
-    font-weight: 550;
-    font-style: italic;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 15px;
-}
