@@ -146,6 +146,17 @@ nav ul li a.active {
 
 
 /* -----Home-Page */
+
+.Home_body {
+    background-image: url(/images/home.jpg);
+ 
+}
+
+
+
+
+
+
 .fp_img {
     width: 340px;
     height: auto;
