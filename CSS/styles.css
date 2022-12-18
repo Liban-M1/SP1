@@ -152,7 +152,7 @@ nav ul li a.active {
     width: 100%;
     height: 100vh;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: auto;
 }
 
 .home_banner {
@@ -179,13 +179,22 @@ nav ul li a.active {
 
 .cta_btn {
     margin-top: 150px;
-    margin-bottom: 320px;
+    margin-bottom: 75px;
     padding: 20px 30px;
     border-radius: 15px;
     color: #fefefe;
     font-size: larger;
     border-color: aliceblue;
     background: url(/images/low-poly-grid-haikei\ \(3\).png);
+    transform: scale(1);
+    transition: 2s;
+}
+
+.cta_btn:hover {
+    padding: 40px 60px;
+    border-color: rgb(27, 27, 113);
+    transform: scale(1.1);
+    transition: 2s;
 }
 
 
@@ -369,12 +378,10 @@ footer p {
         display: flex;
         justify-content: center;
     }
-
-
-
-    
-
-    
 }
+
+
+
+
 
 
