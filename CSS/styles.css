@@ -147,11 +147,10 @@ nav ul li a.active {
 
 /* -----Home-Page */
 
-.Home_body {
-    background-image: url(/images/home.jpg);
- 
+.home_bk {
+    background-image: url(/images/home.jpg)
+    
 }
-
 
 
 
