@@ -2,7 +2,7 @@
 
 ![image](/images/Community%20Science%20Museum.png)
 
-My portfolio with my latest projects
+project in Noroff Front-End course
 
 ## Description
 
